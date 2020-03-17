@@ -29,7 +29,7 @@ export default class Icon extends React.Component<IconProperties> {
             <View style={style}>
                 <Text
                     style={{
-                        fontFamily: font_family(""), //Custom icon file name
+                        fontFamily: font_family("bariol"), //Custom icon file name
                         fontSize: size,
                         backgroundColor: "transparent"
                     }}
