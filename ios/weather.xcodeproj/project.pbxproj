@@ -20,6 +20,10 @@
 		6E006AC85289FB2D59C8C563 /* libPods-weather-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C4CBACC90F6ED3406BD1065 /* libPods-weather-tvOS.a */; };
 		90C74724A0B718FCC589BCBC /* libPods-weatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FFBA582BD879AE4AE92E994 /* libPods-weatherTests.a */; };
 		A2399F772853452490059DCB /* libPods-weather-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FBF85E074D1CD8521C70CF /* libPods-weather-tvOSTests.a */; };
+		D0744ADF242156B100108C56 /* bariol_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0744ADB242156B100108C56 /* bariol_light.ttf */; };
+		D0744AE0242156B100108C56 /* bariol_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0744ADC242156B100108C56 /* bariol_regular.ttf */; };
+		D0744AE1242156B100108C56 /* bariol_thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0744ADD242156B100108C56 /* bariol_thin.ttf */; };
+		D0744AE2242156B100108C56 /* bariol_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0744ADE242156B100108C56 /* bariol_bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		9C4CBACC90F6ED3406BD1065 /* libPods-weather-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weather-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B156D2A31C4CE7EA3B27F477 /* Pods-weather-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weather-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-weather-tvOSTests/Pods-weather-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B3825A5C575DB42E9B146697 /* Pods-weatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherTests.debug.xcconfig"; path = "Target Support Files/Pods-weatherTests/Pods-weatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0744ADB242156B100108C56 /* bariol_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bariol_light.ttf; path = ../../android/app/src/main/assets/fonts/bariol_light.ttf; sourceTree = "<group>"; };
+		D0744ADC242156B100108C56 /* bariol_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bariol_regular.ttf; path = ../../android/app/src/main/assets/fonts/bariol_regular.ttf; sourceTree = "<group>"; };
+		D0744ADD242156B100108C56 /* bariol_thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bariol_thin.ttf; path = ../../android/app/src/main/assets/fonts/bariol_thin.ttf; sourceTree = "<group>"; };
+		D0744ADE242156B100108C56 /* bariol_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = bariol_bold.ttf; path = ../../android/app/src/main/assets/fonts/bariol_bold.ttf; sourceTree = "<group>"; };
 		E8FBF85E074D1CD8521C70CF /* libPods-weather-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weather-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -159,6 +167,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				D0744ADA2421566400108C56 /* Resources */,
 				13B07FAE1A68108700A75B9A /* weather */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* weatherTests */,
@@ -195,6 +204,17 @@
 				0A7070D855A918DA6332655A /* Pods-weatherTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0744ADA2421566400108C56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0744ADE242156B100108C56 /* bariol_bold.ttf */,
+				D0744ADB242156B100108C56 /* bariol_light.ttf */,
+				D0744ADC242156B100108C56 /* bariol_regular.ttf */,
+				D0744ADD242156B100108C56 /* bariol_thin.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,8 +359,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0744AE2242156B100108C56 /* bariol_bold.ttf in Resources */,
+				D0744AE0242156B100108C56 /* bariol_regular.ttf in Resources */,
+				D0744ADF242156B100108C56 /* bariol_light.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D0744AE1242156B100108C56 /* bariol_thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
