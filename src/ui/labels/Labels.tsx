@@ -4,7 +4,7 @@ import {Colors} from '../Colors'
 import { Bariol } from '../Fonts'
 
 
-export type Spacing = "left" | "right" | "top" | "bottom"
+export type Spacing = "left" | "right" | "top" | "bottom" | "horizontal" | "vertical"
 
 
 export const stylesheet = StyleSheet.create({
@@ -58,8 +58,6 @@ function Label(props: LabelProps) {
         case "vertical":
             margins = { marginVertical: spacingSize };
             break;
-        case "all":
-            margins = { margin: spacingSize };
     }
 
     let text = props.text;
