@@ -1,7 +1,7 @@
 export const Colors = {
     Background: {
         Picker: "#141414",
-        Delete: "red",
+        Delete: "#ff0000",
         Card: "#19191c"
     },
     Buttons: {
@@ -13,19 +13,14 @@ export const Colors = {
         Active: "#5289fe"
     },
     Icons: {
-        White: "white",
+        White: "#ffffff",
         Gray: "#7a7c86",
-        Black: "black",
+        Black: "#000000",
         Blue: "#5289fe"
     },
-    Temperature: {
-        Warm: "#EA3760",
-        Cool: "#1862FF",
-        Neutral: "white",
-        Disabled: "#9FA4BE"
-    },
+   
     Labels: {
-        White: "white",
+        White: "#ffffff",
         Gray: "#98A0B4",
         DarkGray: "#7A7C86",
         Link: "#5289fe"
