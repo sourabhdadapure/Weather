@@ -23,6 +23,7 @@ export const Colors = {
         White: "#ffffff",
         Gray: "#98A0B4",
         DarkGray: "#7A7C86",
-        Link: "#5289fe"
+        Link: "#5289fe",
+        Black:"#000000"
     }
 };

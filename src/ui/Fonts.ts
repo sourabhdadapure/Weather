@@ -59,13 +59,21 @@ function Font(
     };
 }
 
-export function Bariol(
-    size: number,
-    weight: FontWeight,
-    color: string,
-    lineHeight?: number
-) {
-    return Font("bariol", size, weight, color, lineHeight, 0.2);
+export function Bariol(size: number, weight: FontWeight, color: string, style?: TextStyle) {
+    return Font(
+        "bariol",
+        size,
+        weight,
+        color,
+        undefined,
+        undefined,
+        Platform.OS == "ios"
+            ? {
+                  ...style,
+                //   transform: [{ translateY: size / 5 }]
+              }
+            : style
+    );
 }
 
 export default Font
