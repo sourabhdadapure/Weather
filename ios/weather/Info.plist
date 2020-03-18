@@ -75,6 +75,11 @@
 		<string>bariol_light.ttf</string>
 		<string>bariol_regular.ttf</string>
 		<string>bariol_thin.ttf</string>
+		<string>fira_code_bold.ttf</string>
+		<string>fira_code_light.ttf</string>
+		<string>fira_code_medium.ttf</string>
+		<string>fira_code_regular.ttf</string>
+		<string>fira_code_retina.ttf</string>
 	</array>
 </dict>
 </plist>

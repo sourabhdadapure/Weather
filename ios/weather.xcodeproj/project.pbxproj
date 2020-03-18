@@ -40,6 +40,11 @@
 		D0BD9772242196140028D9C8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0BD975E242196140028D9C8 /* MaterialIcons.ttf */; };
 		D0BD9773242196140028D9C8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0BD975F242196140028D9C8 /* Ionicons.ttf */; };
 		D0BD9774242196140028D9C8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0BD9760242196140028D9C8 /* Octicons.ttf */; };
+		D0E744222421CB0E00CD3989 /* fira_code_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0E7441D2421CB0E00CD3989 /* fira_code_regular.ttf */; };
+		D0E744232421CB0E00CD3989 /* fira_code_bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0E7441E2421CB0E00CD3989 /* fira_code_bold.ttf */; };
+		D0E744242421CB0E00CD3989 /* fira_code_retina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0E7441F2421CB0E00CD3989 /* fira_code_retina.ttf */; };
+		D0E744252421CB0E00CD3989 /* fira_code_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0E744202421CB0E00CD3989 /* fira_code_medium.ttf */; };
+		D0E744262421CB0E00CD3989 /* fira_code_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0E744212421CB0E00CD3989 /* fira_code_light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +108,11 @@
 		D0BD975E242196140028D9C8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = ../../android/app/src/main/assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
 		D0BD975F242196140028D9C8 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = ../../android/app/src/main/assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
 		D0BD9760242196140028D9C8 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = ../../android/app/src/main/assets/fonts/Octicons.ttf; sourceTree = "<group>"; };
+		D0E7441D2421CB0E00CD3989 /* fira_code_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fira_code_regular.ttf; path = ../../android/app/src/main/assets/fonts/fira_code_regular.ttf; sourceTree = "<group>"; };
+		D0E7441E2421CB0E00CD3989 /* fira_code_bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fira_code_bold.ttf; path = ../../android/app/src/main/assets/fonts/fira_code_bold.ttf; sourceTree = "<group>"; };
+		D0E7441F2421CB0E00CD3989 /* fira_code_retina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fira_code_retina.ttf; path = ../../android/app/src/main/assets/fonts/fira_code_retina.ttf; sourceTree = "<group>"; };
+		D0E744202421CB0E00CD3989 /* fira_code_medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fira_code_medium.ttf; path = ../../android/app/src/main/assets/fonts/fira_code_medium.ttf; sourceTree = "<group>"; };
+		D0E744212421CB0E00CD3989 /* fira_code_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = fira_code_light.ttf; path = ../../android/app/src/main/assets/fonts/fira_code_light.ttf; sourceTree = "<group>"; };
 		E8FBF85E074D1CD8521C70CF /* libPods-weather-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weather-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -241,6 +251,11 @@
 		D0744ADA2421566400108C56 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D0E7441E2421CB0E00CD3989 /* fira_code_bold.ttf */,
+				D0E744212421CB0E00CD3989 /* fira_code_light.ttf */,
+				D0E744202421CB0E00CD3989 /* fira_code_medium.ttf */,
+				D0E7441D2421CB0E00CD3989 /* fira_code_regular.ttf */,
+				D0E7441F2421CB0E00CD3989 /* fira_code_retina.ttf */,
 				D0BD975D242196140028D9C8 /* AntDesign.ttf */,
 				D0BD9756242196130028D9C8 /* bariol_bold.ttf */,
 				D0BD9752242196130028D9C8 /* bariol_light.ttf */,
@@ -411,6 +426,7 @@
 				D0BD9774242196140028D9C8 /* Octicons.ttf in Resources */,
 				D0BD976A242196140028D9C8 /* bariol_bold.ttf in Resources */,
 				D0BD976C242196140028D9C8 /* Entypo.ttf in Resources */,
+				D0E744262421CB0E00CD3989 /* fira_code_light.ttf in Resources */,
 				D0BD9761242196140028D9C8 /* FontAwesome5_Regular.ttf in Resources */,
 				D0BD9771242196140028D9C8 /* AntDesign.ttf in Resources */,
 				D0BD976B242196140028D9C8 /* SimpleLineIcons.ttf in Resources */,
@@ -418,15 +434,19 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				D0BD9765242196140028D9C8 /* EvilIcons.ttf in Resources */,
 				D0BD9766242196140028D9C8 /* bariol_light.ttf in Resources */,
+				D0E744232421CB0E00CD3989 /* fira_code_bold.ttf in Resources */,
 				D0BD9762242196140028D9C8 /* MaterialCommunityIcons.ttf in Resources */,
 				D0BD976E242196140028D9C8 /* FontAwesome5_Solid.ttf in Resources */,
 				D0BD976D242196140028D9C8 /* bariol_thin.ttf in Resources */,
 				D0BD9772242196140028D9C8 /* MaterialIcons.ttf in Resources */,
+				D0E744222421CB0E00CD3989 /* fira_code_regular.ttf in Resources */,
 				D0BD9769242196140028D9C8 /* Fontisto.ttf in Resources */,
 				D0BD9764242196140028D9C8 /* Zocial.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				D0BD976F242196140028D9C8 /* Foundation.ttf in Resources */,
+				D0E744252421CB0E00CD3989 /* fira_code_medium.ttf in Resources */,
 				D0BD9773242196140028D9C8 /* Ionicons.ttf in Resources */,
+				D0E744242421CB0E00CD3989 /* fira_code_retina.ttf in Resources */,
 				D0BD9767242196140028D9C8 /* Feather.ttf in Resources */,
 				D0BD9770242196140028D9C8 /* bariol_regular.ttf in Resources */,
 				D0BD9768242196140028D9C8 /* FontAwesome5_Brands.ttf in Resources */,
