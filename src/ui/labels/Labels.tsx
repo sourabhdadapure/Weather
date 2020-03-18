@@ -1,24 +1,24 @@
 import * as React from 'react'
 import {Text, TextStyle, StyleSheet, TextProps } from 'react-native'
 import {Colors} from '../Colors'
-import { Bariol } from '../Fonts'
+import { Bariol, FiraCode } from '../Fonts'
 
 
 export type Spacing = "left" | "right" | "top" | "bottom" | "horizontal" | "vertical"
 
 
 export const stylesheet = StyleSheet.create({
-    h1: Bariol(22,"bold", Colors.Labels.White),
-    h2: Bariol(18, "bold", Colors.Labels.White),
-    h3: Bariol(16, "bold", Colors.Labels.White),
-    h4: Bariol(12, "bold", Colors.Labels.White),
+    h1: FiraCode(22,"bold", Colors.Labels.White),
+    h2: FiraCode(18, "bold", Colors.Labels.White),
+    h3: FiraCode(16, "bold", Colors.Labels.White),
+    h4: FiraCode(12, "bold", Colors.Labels.White),
 
-    b1: Bariol(16, "medium", Colors.Labels.White),
-    b2: Bariol(16, "regular", Colors.Labels.White),
-    b3: Bariol(15, "regular", Colors.Labels.Gray, 20),
-    b4: Bariol(15, "regular", Colors.Labels.DarkGray),
+    b1: FiraCode(16, "medium", Colors.Labels.White),
+    b2: FiraCode(16, "regular", Colors.Labels.White),
+    b3: FiraCode(15, "regular", Colors.Labels.Gray, 20),
+    b4: FiraCode(15, "regular", Colors.Labels.DarkGray),
 
-    link: Bariol(16, "regular", Colors.Labels.Link)
+    link: FiraCode(16, "regular", Colors.Labels.Link)
 })
 
 interface LabelProps extends TextProps {

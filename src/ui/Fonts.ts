@@ -2,7 +2,7 @@ import {Platform, Dimensions, TextStyle} from 'react-native'
 
 const {width} = Dimensions.get("window");
 
-type FontFamily = "bariol";
+type FontFamily = "bariol"|"fira_code";
 type FontWeight = "bold"|"black"|"regular"|"light"|"medium" | "ultralight";
 
 function font_size(size: number){
@@ -16,6 +16,8 @@ export function font_family(family: FontFamily, suffix?: FontWeight) {
     switch (family) {
         case "bariol":
             return "Bariol";
+        case "fira_code":
+            return "Fira Code";
         default:
             return "Bariol";
     }
@@ -74,6 +76,15 @@ export function Bariol(size: number, weight: FontWeight, color: string, style?: 
               }
             : style
     );
+}
+
+export function FiraCode(
+    size: number,
+    weight: FontWeight,
+    color: string,
+    lineHeight?: number
+) {
+    return Font("fira_code", size, weight, color, lineHeight, 0.2);
 }
 
 export default Font
