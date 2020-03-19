@@ -20,7 +20,7 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator headerMode="none">
+      <Stack.Navigator>
       <Stack.Screen  name="Intro"  component={IntroScreen} />
       <Stack.Screen  name="Splash" component={SplashScreen} />
         <Stack.Screen  name="Home" component={HomeScreen} />

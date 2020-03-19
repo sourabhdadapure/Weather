@@ -11,10 +11,10 @@ interface IntroScreenProperties {
 export default class IntroScreen extends React.Component<IntroScreenProperties>{
     render() {
         return (
-            <View style={{ flex: 1, alignItems: 'center', justifyContent: 'space-between', paddingVertical:200 }}>
-              <UI.Labels.H1 color={UI.Colors.Labels.DarkGray} text="Weather"/>
-              <UI.Buttons.Primary  text="Signup" onPress={()=>{}}/>
-              <UI.Buttons.Primary text="login"onPress={()=>this.props.navigation.navigate('Home')}/>
+            <View style={{ flex: 1, justifyContent:"center", alignItems:'center'}}>
+              <UI.Labels.H1 spacing="bottom" spacingSize={30} color={UI.Colors.Labels.DarkGray} text="Weather"/>
+              <UI.Buttons.Primary style={{marginBottom:30}} text="Signup" onPress={()=>{}}/>
+              <UI.Buttons.Primary text="login"onPress={()=>{}}/>
       
             </View>
           );

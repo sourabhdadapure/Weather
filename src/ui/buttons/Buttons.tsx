@@ -83,15 +83,16 @@ interface BaseButtonProps extends ViewProps {
 
 interface ButtonProps extends BaseButtonProps {
     text?: string;
+    style? : any;
 }
 
 function HighlightButton(props: BaseButtonProps) {
     return (
-        <TouchableHighlight
+        <TouchableOpacity
             style={[props.style, { opacity: props.disabled ? DISABLED_OPACITY : 1 }]}
             disabled={props.disabled}
+            activeOpacity={0.5}
             onPress={props.disabled ? undefined : props.onPress}
-            underlayColor={props.underlayColor}
         >
             <React.Fragment>
                 <View style={{ opacity: props.loading ? 0 : 1 }}>{props.children}</View>
@@ -111,7 +112,7 @@ function HighlightButton(props: BaseButtonProps) {
                     </View>
                 )}
             </React.Fragment>
-        </TouchableHighlight>
+        </TouchableOpacity>
     );
 }
 
@@ -150,7 +151,7 @@ interface IconButtonProps extends ButtonProps {
 
 export const Buttons = {
     Primary: (props: ButtonProps) => (
-        <HighlightButton {...props} style={stylesheet.primary} underlayColor={Colors.Buttons.PrimaryShadow} >
+        <HighlightButton {...props} style={[stylesheet.primary,props.style]} underlayColor={Colors.Buttons.PrimaryShadow} >
             {props.text && <Labels.B1 text={props.text}/> }
         </HighlightButton>
     ),
