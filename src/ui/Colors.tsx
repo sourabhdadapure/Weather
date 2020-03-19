@@ -5,6 +5,8 @@ export const Colors = {
         Card: "#19191c"
     },
     Buttons: {
+        Primary:"#78CCFB",
+        PrimaryShadow: '#B1DEFC',
         White: "#FFFFFF",
         Blue: "#5289fe",
         CTA: "#474951",

@@ -16,6 +16,15 @@ import { scale } from "../Scale";
 const DISABLED_OPACITY = 0.5;
 
 export const stylesheet = StyleSheet.create({
+    primary: {
+        backgroundColor: Colors.Buttons.Primary,
+        borderRadius: 30,
+        paddingVertical:15,
+        alignItems:"center",
+        width:"80%",
+        shadowColor:Colors.Buttons.PrimaryShadow,
+        shadowOpacity:1
+    },
     b1: {
         backgroundColor: Colors.Buttons.CTA,
         borderRadius: 6,
@@ -137,6 +146,11 @@ interface IconButtonProps extends ButtonProps {
 }
 
 export const Buttons = {
+    Primary: (props: ButtonProps) => (
+        <HighlightButton {...props} style={stylesheet.primary} underlayColor={Colors.Buttons.PrimaryShadow} >
+            {props.text && <Labels.B1 text={props.text}/> }
+        </HighlightButton>
+    ),
     B1: (props: ButtonProps) => (
         <HighlightButton {...props} style={stylesheet.b1} underlayColor={Colors.Buttons.Active}>
             {props.text && <Labels.B1 text={props.text} />}
