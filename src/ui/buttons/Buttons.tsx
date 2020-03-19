@@ -22,8 +22,11 @@ export const stylesheet = StyleSheet.create({
         paddingVertical:15,
         alignItems:"center",
         width:"80%",
-        shadowColor:Colors.Buttons.PrimaryShadow,
-        shadowOpacity:1
+        shadowColor:Colors.Buttons.Primary,
+        shadowOpacity:0.7,
+        elevation: 10,
+        shadowRadius: 15,
+        shadowOffset : { width: 1, height: 13},
     },
     b1: {
         backgroundColor: Colors.Buttons.CTA,
