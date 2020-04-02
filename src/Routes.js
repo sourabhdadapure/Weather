@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from './views/HomeScreen'
 import SplashScreen from './views/SplashScreen'
 import IntroScreen from './views/IntroScreen'
+import ThemeSelector from './views/ThemeSelector'
 
 // function HomeScreen() {
 //   return (
@@ -24,6 +25,7 @@ function App() {
       <Stack.Screen  name="Intro"  component={IntroScreen} />
       <Stack.Screen  name="Splash" component={SplashScreen} />
         <Stack.Screen  name="Home" component={HomeScreen} />
+        <Stack.Screen name="ThemeSelector" component={ThemeSelector}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
