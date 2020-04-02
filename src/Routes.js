@@ -1,11 +1,11 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import {View, Text} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 
-import HomeScreen from './views/HomeScreen'
-import SplashScreen from './views/SplashScreen'
-import IntroScreen from './views/IntroScreen'
+import HomeScreen from './views/HomeScreen';
+import SplashScreen from './views/SplashScreen';
+import IntroScreen from './views/IntroScreen';
 
 // function HomeScreen() {
 //   return (
@@ -16,14 +16,14 @@ import IntroScreen from './views/IntroScreen'
 // }
 
 const Stack = createStackNavigator();
-
+// Test commit
 function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen  name="Intro"  component={IntroScreen} />
-      <Stack.Screen  name="Splash" component={SplashScreen} />
-        <Stack.Screen  name="Home" component={HomeScreen} />
+        <Stack.Screen name="Intro" component={IntroScreen} />
+        <Stack.Screen name="Splash" component={SplashScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
